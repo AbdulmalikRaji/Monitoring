@@ -1,0 +1,4 @@
+cron:
+    - description: "test service availability"
+      url: /test
+      schedule: every 5 mins

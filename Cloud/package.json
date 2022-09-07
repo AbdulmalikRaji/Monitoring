@@ -1,0 +1,23 @@
+{
+  "name": "website-availability-monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tom Baranowicz",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/datastore": "^5.1.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0",
+    "minimist": "^1.2.6"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
